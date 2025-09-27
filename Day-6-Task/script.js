@@ -108,4 +108,4 @@ console.log(`Odd Array is [${odd}]`)
 // The sum of array elements is : 163
 numbers = [45, 3, 25, 78, 12];
  let values=numbers.reduce((per,ne)=>per+ne,0);
- console.log(`The sum of an array is : ${values}`);
+ 
