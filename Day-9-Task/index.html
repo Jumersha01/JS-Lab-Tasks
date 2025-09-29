@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Day - 9 works</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            height: 60vh;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            height: 350px;
+            width: 400px;
+            border: 1px solid gray;
+            border-radius: 5px;
+                box-shadow: 1px -1px 11px; 
+        }
+
+        .btns {
+            display: flex;
+            justify-content: space-between;
+            width: 171px;;
+        }
+        input{
+            outline: none;
+            height: 35px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        button{
+            /* height: 35px; */
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+
+        }
+        #reset{
+           background-color: red; 
+        }
+        #check{
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1>Lets Check Your Luck</h1>
+        <label for="Guess">Guess the Number Between 1 to 50 </label>
+        <div class="rndno"><span class="show"></span></div>
+        <div class="rndno"><span class="show2"></span></div>
+        <input type="text" placeholder="Enter The Number" id="Guess">
+        <div class="btns">
+            <button id="check">Check</button>
+            <button id="reset">Try Again</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
