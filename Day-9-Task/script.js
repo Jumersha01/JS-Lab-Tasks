@@ -12,6 +12,9 @@ function main(){
        if(inValues==rndNO){
           show2.textContent=`WoW You Did It!`
        }
+       else if(typeof (inValues)=='string'){
+         alert("Only Number between 1 to 50 Allowed")
+       }
        else{
         show2.textContent=`Better Luck Next Time`
        }
